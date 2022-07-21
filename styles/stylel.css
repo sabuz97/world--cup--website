@@ -149,6 +149,10 @@ h4 {
     margin-left: 15px;
 }
 
+.view-button {
+    display: none;
+}
+
 /* Footer part */
 footer {
     background-color: rgb(29, 29, 29);
@@ -190,4 +194,131 @@ a {
 .social i:hover {
     background-color: white;
     color: rgb(73, 169, 237);
+}
+
+/* media queries */
+@media only screen and (max-width:688px) {
+    .banner-part {
+        width: 90%;
+        height: auto;
+        display: table;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .banner-details {
+        text-align: center;
+        color: white;
+        width: 80%;
+    }
+
+    .banner-details h1 {
+        font-size: 32px;
+    }
+
+    .banner-details h1 p {
+        font-size: 16px;
+    }
+
+    .watch-button {
+        font-size: 18px;
+    }
+
+    .middle-part {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .button {
+        display: table;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    .blogs {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-div {
+        margin-bottom: 25px;
+    }
+
+    .like {
+        margin-left: 35%;
+    }
+
+    .footer {
+        display: inline;
+    }
+
+    footer p {
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    .social {
+        color: white;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .banner-part {
+        width: 90%;
+        height: auto;
+    }
+
+    .banner-details h1 {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .banner-details p {
+        margin-bottom: 20px;
+    }
+
+    .middle-part {
+        display: table;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .button {
+        display: inline;
+        background-color: white;
+        margin-bottom: 0%;
+    }
+
+    .blogs {
+        justify-items: center;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        padding: 0%;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .blog-div {
+        margin-left: 0%;
+    }
+
+    .view-button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 15px 20px;
+        background-color: brown;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
 }
