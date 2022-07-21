@@ -1,3 +1,16 @@
+/* common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
 /* banner section start */
 .banner-part {
     height: 80vh;
@@ -51,7 +64,7 @@
 .middle-part {
     display: flex;
     width: 80%;
-    height: 90vh;
+    /* height: 90vh; */
     margin: 0 10%;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -63,7 +76,7 @@
     flex-direction: column;
     background-color: rgb(30, 30, 30);
     margin-top: 10px;
-    margin-bottom: 32%;
+    margin-bottom: 40%;
     border-radius: 5px;
     padding: 10px 0;
 }
@@ -125,6 +138,17 @@ h4 {
     padding-right: 3px;
 }
 
+.like {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.span-2 {
+    margin-left: 15px;
+}
+
 /* Footer part */
 footer {
     background-color: rgb(29, 29, 29);
@@ -149,4 +173,21 @@ hr {
 
 .social {
     font-size: 24px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social i {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 0 15px;
+    border: none;
+}
+
+.social i:hover {
+    background-color: white;
+    color: rgb(73, 169, 237);
 }
